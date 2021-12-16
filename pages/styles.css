@@ -1,0 +1,56 @@
+:root {
+  --primary-color: #0590fc;
+}
+
+main.ant-layout-content.content-container {
+  margin: 0px 16px;
+  padding: 24px;
+  min-height: 360px;
+}
+
+footer.ant-layout-footer.footer-container {
+  text-align: center;
+}
+
+section.ant-layout.ant-layout-has-sider.layout-container {
+  min-height: 100vh;
+}
+
+.ant-select.ant-select-single.ant-select-allow-clear.ant-select-show-arrow.select-container {
+  width: 100%;
+}
+
+.ant-picker.datepicker-container {
+  width: 100%;
+}
+
+input[type='submit'] {
+  background-color: var(--primary-color);
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type='submit'] {
+  background-color: var(--primary-color);
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type='submit']:disabled,
+button:disabled {
+  opacity: 0.5;
+}
+
+.receiptTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}

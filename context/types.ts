@@ -1,0 +1,4 @@
+export const TYPES = {
+  SET_VALUES: 'SET_VALUES',
+  CLEAR_STORE: 'CLEAR_STORE',
+};

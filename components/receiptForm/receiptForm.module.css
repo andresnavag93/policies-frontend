@@ -1,0 +1,11 @@
+.containerLoading {
+  margin: 20px 0px;
+}
+
+.buttonTypeSubmit {
+  margin: 4px 2px;
+  padding: 10px 30px;
+  background-color: #0590fc;
+  border: none;
+  color: white;
+}
